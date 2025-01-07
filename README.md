@@ -1,5 +1,4 @@
 # mp3-cut
-## # mp3-cut
 ## 一长部视频mp3分割成多个mp3后，快速筛选多个mp3
 
 gpt-sovits 中自带一个mp3分割成多个mp3的功能，
@@ -54,7 +53,7 @@ npm install express ejs
 app.js :
 
 ```javascript
-// app.js 文件
+//   app.js 文件
 
 const express = require('express');
 const fs = require('fs');
@@ -148,7 +147,7 @@ app.listen(port, () => {
 创建 views 文件夹，里面放index.ejs文件，把下面粘贴到里面 ：
 
 ```
-//views/index.ejs 文件
+//  views/index.ejs 文件
 
 
 <!DOCTYPE html>
