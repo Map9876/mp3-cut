@@ -33,3 +33,20 @@ https://github.com/Ajatt-Tools/kitsunekko-mirror/tree/main/subtitles
 
 ，然后刚好每个mp3，能对应好它们的日语文本
 。按理说应该从nyaa.si 下载 bs11 tbs at-x 这些电视台的视频，里面有字幕文件，上面这个项目的所有日语字幕来源都是nyaa.si里，搜了一下Netflix也有日语字幕
+
+问题是多个mp3，不方便听哪个删除哪个，音乐播放器打开，再删，没办法一次
+
+node是生成html用的
+
+app.js /folder
+生成一个显示folder 下文件的所有mp3的一个
+
+html，包括音频播放条，给我app.js代码以及html模板
+好的，我可以帮助你生成一个 app.js 文件，以及一个用于显示 folder 目录下所有 MP3 文件的 HTML 模板。我们将使用 Node.js 和 Express 来创建服务器，并使用 EJS 模板引擎来生成 HTML。
+
+首先，安装必要的 npm 包：
+
+```
+npm init -y
+npm install express ejs
+```
