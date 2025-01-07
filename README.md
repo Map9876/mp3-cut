@@ -32,3 +32,4 @@ slice_audio.py 就是用的 https://github.com/openvpi/audio-slicer这个项目�
 https://github.com/Ajatt-Tools/kitsunekko-mirror/tree/main/subtitles
 
 ，然后刚好每个mp3，能对应好它们的日语文本
+。按理说应该从nyaa.si 下载 bs11 tbs at-x 这些电视台的视频，里面有字幕文件，上面这个项目的所有日语字幕来源都是nyaa.si里，搜了一下Netflix也有日语字幕
