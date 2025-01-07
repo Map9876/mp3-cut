@@ -273,3 +273,13 @@ app.listen(port, () => {
 </body>
 </html>
 ```
+
+创建folder文件夹 ，这个文件夹没啥用是空的就行，但是网页里面链接会用到，地址都是 /folder/1.mp3 这种，
+
+因为设置了 app.use('/folder', express.static(folderPath));  会用到
+
+运行 ：
+node app.py mp3文件路径
+
+浏览器打开：
+http://127.0.0.1:3000
