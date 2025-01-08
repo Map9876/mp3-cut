@@ -282,3 +282,8 @@ node app.py mp3文件路径
 
 浏览器打开：
 http://127.0.0.1:3000
+
+npm init -y #这个命令会在当前目录，创建一个 package.json 文件，类似于requirements.txt，之后别人使用 npm install ，其实就是从这个文件里面下载我npm install express 的这些安装过的内容。创建项目时候最初运行一次，后面运行应该会把node_modules文件夹里已安装的写入到这个package.json 中
+
+npm install express ejs 这个会当前目录创建node_modules文件夹，然后下面创建express文件夹和ejs文件夹，存放下载的东西，也就是说如果改了目录，还得install，
+
