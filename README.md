@@ -287,3 +287,7 @@ npm init -y #这个命令会在当前目录，创建一个 package.json 文件�
 
 npm install express ejs 这个会当前目录创建node_modules文件夹，然后下面创建express文件夹和ejs文件夹，存放下载的东西，也就是说如果改了目录，还得install，
 
+
+实现一个网页，实现一个网页，可以播放本地视频，以及读取里面的ass或者srt字幕的时间，以及一个按钮，当前播放时候，按按钮在哪个字幕时间段，就记录下来这个时间段。。这个字幕在视频mkv里面，可以用ffmpeg读取，我是说可以脚本提取ass然后渲染html即可，注意读取ass和srt，只需要在后端调用命令行里的ffmpeg即可，在网页中，如果我在视频播放的某个时间段内点击了记录按钮，那就把这个时间所位于的字幕的时间轴记录作为json，我已经完成了项目的基础架构 
+
+https://github.com/Map9876/mp3-cuthttps://github.com/copilot/c/776570c9-f0b3-4d18-97b8-43c1566cf337
